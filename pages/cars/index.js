@@ -1,9 +1,11 @@
+import Categories from "@/components/module/Categories";
 import CarsPage from "@/components/templates/CarsPage";
 import carsData from "@/data/carsData";
 function AllCars() {
   return (
     <div>
-        <CarsPage data={carsData} />
+      <Categories />
+      <CarsPage data={carsData} />
     </div>
   );
 }
